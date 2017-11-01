@@ -1,0 +1,23 @@
+{
+  "name": "dae-data-api",
+  "version": "0.0.9",
+  "description": "Composites data for server and provides a GraphQL interface into that data",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "build": "echo `nothing to build`",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.6.1",
+    "graphql-type-json": "^0.1.4",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "changelog-maker": "2.2.6"
+  },
+  "engines": {
+    "node": "8.7.0"
+  }
+}

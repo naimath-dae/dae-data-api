@@ -1,0 +1,5 @@
+node_modules
+stats.json
+.env
+*.log
+package-lock.json

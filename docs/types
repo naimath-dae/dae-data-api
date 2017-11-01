@@ -1,0 +1,41 @@
+   Different types if needed can refer
+   
+    type doc {
+        id: String
+        firstPublishedDate: String
+        lastPublishedDate: String
+        name: String
+        pinnedPosts: [Post]
+        unpinnedPosts: [Post]
+    }
+
+
+    type Paragraph {
+        id: String
+        plaintext: String
+        richtext: String
+        format: [JSON]
+    }
+
+    type Format {
+        _sv: Int
+        types: [JSON]
+        attributes: [Attribute]
+        startpos: Int
+        endpos: Int
+    }
+
+    type Attribute {
+        displayText: String
+        style: String
+        window: String
+        link: String
+        linkedType: String
+        altText: String
+        indent: Int
+    }
+
+    
+
+      
+
